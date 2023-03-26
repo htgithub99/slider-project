@@ -1,0 +1,44 @@
+.wrapItemList {
+  background-color: #000000;
+  border-radius: 5px;
+
+  &_title {
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px 0;
+    @media only screen and (max-width: 767px) {
+      font-size: 14px;
+    }
+  }
+
+  &_content {
+    border-top: 1px solid #252525;
+    padding: 0 5px 5px 5px;
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        p {
+          margin: 0;
+          font-size: 14px;
+          color: #ffffff;
+          display: -webkit-box;
+          -webkit-line-clamp: 7;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          word-break: break-all;
+          text-align: justify;
+          flex: 1;
+          @media only screen and (max-width: 767px) {
+            font-size: 10px;
+            -webkit-line-clamp: 3;
+          }
+        }
+      }
+    }
+  }
+}

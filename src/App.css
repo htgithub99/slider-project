@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+.App {
+  background: #18212b;
+  height: 100vh;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Mulish', sans-serif;
+}
